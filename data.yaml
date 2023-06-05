@@ -1,9 +1,8 @@
-train: train/images
-val: valid/images
-test: 
+path: '/content/drive/MyDrive/FaceDetection/Data'
+train: 'train/images'
+val:  'val/images'
 
-
-nc: 1
-names: ['face']
-
-
+ 
+# class names
+names: 
+  0:  Face
